@@ -1,8 +1,5 @@
-TODO: RESET MARGIN-TOP: -80px WHEN NAVBAR IS DONE
+This is a personal site I have created.
 
-TODO:
+This site includes information about myself, displays a couple projects I have completed, or am working on, and also provides my contact information.
 
-    opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
-    top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
-
-    put this back in sidebar
+enjoy!!!
