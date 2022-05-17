@@ -1,0 +1,57 @@
+.Hero {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.logo-container {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 6rem;
+  position: relative;
+  top: 40%;
+  color: #f49f0a;
+  animation: fadeInRight;
+  animation-duration: 2s;
+}
+
+.hero-typed {
+  font-size: 4rem;
+  position: relative;
+  top: 40%;
+  color: #00a6a6;
+  animation: fadeInLeft;
+  animation-duration: 10s;
+}
+
+@media screen and (max-width: 1440px) {
+  .logo-container {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    top: 0px;
+  }
+
+  .hero-container {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 100px;
+  }
+}

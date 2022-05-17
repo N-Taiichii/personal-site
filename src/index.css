@@ -1,0 +1,14 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #505a5b;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

@@ -1,0 +1,43 @@
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 50%;
+  background: #00a6a6;
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.contact-form-label {
+  font-size: 3rem;
+  text-align: center;
+  margin: 5px;
+  color: #f49f0a;
+}
+
+.submitbtn {
+  border: none;
+  background: #505a5b;
+  color: #f49f0a;
+  font-size: 3.5rem;
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.submitbtn:hover {
+  background: #f49f0a;
+  color: #505a5b;
+}

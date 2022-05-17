@@ -1,0 +1,38 @@
+.Contact {
+  min-height: 100vh;
+  background: #bbdef0;
+}
+
+.contact-title {
+  font-size: 5rem;
+  text-align: center;
+  color: #f49f0a;
+  margin-bottom: 0;
+  padding-top: 100px;
+}
+
+.contact-container {
+  width: 75%;
+  height: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 5rem;
+  margin: 10px 100px;
+  color: #505a5b;
+  transition: 0.2s ease-in;
+}
+
+.icon:hover {
+  color: #f49f0a;
+}
+
+.phone {
+  font-size: 4rem;
+  text-align: center;
+  color: #f49f0a;
+}
